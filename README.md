@@ -108,7 +108,7 @@ Code to Draw Some Graphs to check classification:
 existing_csv_path = 'VehicleClassification.csv'
 data = pd.read_csv(existing_csv_path)
 
-# Select rows 500 to 999 (excluding row 1000) and plot the 'value' column
+# Select specific rows and dispay data
 data.iloc[99:220].plot(y='Weight', x='Colour')
 
 # Customize the plot (add labels, title, etc.) as needed
